@@ -1,0 +1,45 @@
+git and github are web based applications .
+
+git runs in your local machine
+
+consider a project called college management.the different modules maybe student ,faculty,library etcc...
+and each of them has their own functionality.
+
+difficuilt to manage works of different users of this project.
+so we are creating a centralized folder for everyone to access called repository having name as same as project.
+
+accessing repository by local machines -clone
+ie exact copy of the contents of repository availiable to developers ..or local machines\\
+
+let developer 1 implement all functionality for student like login and other things..and placing his code into
+remote repository is called-push but this change not reflected in developer 2 and developer 3.
+to have this change only(not the excat copy again) reflect in their local systems -pull
+
+let developer complete library module,he push library module into remote repository which
+ will be availiable in the remote repository.for other to acces thi update only they should pull from repository.
+
+
+single developer remote depository
+we cannot push to remote repository directly from local storage
+there is a area called staging area and a repository local repository
+local storage ,staging area and local repository.we can only push filesfrom local repository to remote repository
+so we move from local storage to staging area to local repository to push to remote repository
+ie we clone from remote repository to local storage
+git add-moves files from local storage to staging area
+git commit-moves file from staging area to local repository
+git push-moves from local repository to remote repository
+
+ commands in gitbash
+
+git init-initialize git
+
+git status-listing untracked files
+
+git add file_name.typeof file (or) git add -A   -move file to staging area
+ git commit -m"first commit or initial commit"-we can give ay message
+
+ git config --global user.email " msg   "
+ git config --global user.name " msg  "
+git remote add hub path of repository
+git remote -v-check if added
+git push hum master

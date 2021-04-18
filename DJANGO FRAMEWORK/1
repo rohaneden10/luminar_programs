@@ -1,0 +1,30 @@
+django and flask are some examples of frameworks for python
+html and css(cascading styling sheet) are frontend technologies
+html is used for displaying content
+css used for styling
+bootstrap is used for advanced styling
+ajax(going to backend without rereshing) is also a frontend technologies and also jquery
+
+
+
+
+ in backend data storing and data processing happens
+ data stored in databased(mysql,mongodb,postgres,sqlite)
+ data processed using a programming language(any programming language is used such as python,php,javascript,c#)
+ so here we are using python for data processing in the backend
+
+
+
+ Django is a framework
+ eg=for python frameworks are django,flask,oddo
+ for php framweorks are wordpress,laravel
+ nodejs frameworks include express
+ for java frameworks are spring and hibernate
+ for c# framworks  is asp.net
+
+
+
+ django is used for creating web based applications.
+ deployed in server and accessed through web is web applcation.(other applications are desktop applications and moble applications)
+
+

@@ -1,0 +1,2 @@
+import factorial
+factorial.factorial()
